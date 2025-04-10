@@ -15,15 +15,19 @@
   "dependencies": {
     "@nrwl/workspace": "^19.8.3",
     "@types/bcrypt": "^5.0.2",
-    "next": "^14.2.15",
-    "react": "18.3.1",
+    "aws-sdk": "^2.1692.0",
     "bcrypt": "^5.1.1",
+    "jose": "^6.0.10",
+    "mock-aws-s3": "^4.0.2",
+    "next": "^14.2.15",
+    "nock": "^14.0.3",
+    "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-is": "18.3.1",
-    "styled-components": "5.3.6"
+    "styled-components": "5.3.6",
+    "swr": "^2.3.3"
   },
   "devDependencies": {
-    "prisma": "^6.5.0",
     "@eslint/compat": "1.2.0",
     "@eslint/js": "^9.8.0",
     "@nx/devkit": "19.8.3",
@@ -63,6 +67,7 @@
     "jest-environment-node": "^29.7.0",
     "nx": "19.8.3",
     "prettier": "^2.6.2",
+    "prisma": "^6.5.0",
     "ts-jest": "^29.1.0",
     "ts-node": "10.9.1",
     "tslib": "^2.3.0",
